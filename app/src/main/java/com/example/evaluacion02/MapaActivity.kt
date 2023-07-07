@@ -24,9 +24,9 @@ class MapaActivity : AppCompatActivity(), OnMapReadyCallback {
         map = googleMap
 
         // Agregar marcadores
-        addMarker(LatLng(37.7749, -122.4194), "San Francisco", "California")
-        addMarker(LatLng(51.5074, -0.1278), "Londres", "Reino Unido")
-        addMarker(LatLng(35.6895, 139.6917), "Tokio", "Japón")
+        addMarker(LatLng(-12.003595286944169, -77.06071181803337), "av tomas valle", "lima")
+        addMarker(LatLng(-11.988745520952062, -77.05947800191983), "av carlos izaguirre", "lima")
+        addMarker(LatLng(-11.991180308908994, -77.05912395034474), "av industrial", "lima")
 
         // Establecer posición y nivel de zoom
         val initialPosition = LatLng(37.7749, -122.4194)
